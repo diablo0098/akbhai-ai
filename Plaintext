@@ -1,0 +1,26 @@
+ak-bhai-ai/
+├── package.json
+├── next.config.mjs
+├── tsconfig.json
+├── tailwind.config.ts
+├── postcss.config.mjs
+├── .env.example
+├── README.md
+├── prisma/
+│   └── schema.prisma
+├── lib/
+│   ├── prisma.ts
+│   └── storage.ts
+└── app/
+    ├── layout.tsx
+    ├── page.tsx
+    └── api/
+        ├── generate/
+        │   ├── route.ts
+        │   └── [id]/
+        │       └── route.ts
+        ├── generations/
+        │   └── route.ts
+        └── prompt/
+            └── enhance/
+                └── route.ts
